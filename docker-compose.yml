@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  f1ethier45:
+    image: f1ethier45
+    build:
+      context: .
+      dockerfile: ./Dockerfile
